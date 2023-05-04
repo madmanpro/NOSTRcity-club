@@ -1,0 +1,60 @@
+#profile-pic-big {
+    background-color: white;
+    height:75px;
+    width:75px;
+    object-fit: cover;
+    border-radius:50%;
+    margin-right: 10px;
+  }
+
+#author-big {
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#author-big:hover {
+    text-decoration: underline;
+}
+
+#pubkey-big {
+    font-size: 15px;
+    color: gray;
+}
+
+#meta-big {
+    display: flex;
+}
+
+#note-name-big {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#message-content {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.message-container-big {
+    position: relative;
+    box-sizing:border-box;
+    background-color: rgb(44, 42, 42);
+    color: white;
+    margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+#replying-big {
+    text-align: left;
+    padding-top: 10px;
+    padding-left:10px;
+    font-size: small;
+    color: gray;
+    z-index: 4;
+}

@@ -1,0 +1,202 @@
+/* Orange buttons */
+.classic-button {
+    font-size: small;
+    border:none;
+    background-color: orange;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.classic-button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.wide {
+    width: 6rem;
+}
+
+
+/* Circular profile pics */
+.profile-pic {
+    background-color: white;
+    box-shadow: 0px 0px 3px mediumpurple;
+    object-fit: cover;
+    border-radius:50%;
+}
+
+/* membership card logo */
+.membercard-logo {
+    height: 68px;
+    width: 120px;
+    position: sticky;
+    left: 68%;
+    bottom: 75%;
+    border-radius: 100px;
+}
+
+.small-pic {
+    height: 50px;
+    width: 50px;
+}
+
+.medium-pic {
+    height:75px;
+    width:75px;
+}
+
+.large-pic {
+    height:100px;
+    width:100px;
+}
+
+.extra-large-pic {
+    height: 125px;
+    width: 125px;
+}
+
+
+/* Notes or posts */
+.card {
+    background-color:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: normal;
+    box-shadow: 0px 1px 0px mediumpurple;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 0px;
+}
+
+/* NOSTRcity Membership card */
+.mcard {
+    background-color: #700061;
+    opacity: 0.8;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #000000 4px ), repeating-linear-gradient( #4f208b55, #4f208b );
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 3px mediumpurple;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 125px;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* text sizes */
+.small-text {
+    font-size: small;
+}
+
+.medium-text {
+    font-size: normal;
+}
+
+.large-text {
+    font-size: large;
+}
+
+.larger-text {
+    font-size: 20px;
+}
+
+.extra-large-text {
+    font-size: 30px;
+}
+
+
+/* Links */
+.default-link {
+    color:steelblue;
+}
+
+.default-link:hover {
+    color: blue;
+}
+
+.link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Other */
+.gray {
+    color:gray;
+}
+
+
+.highlight {
+    color: orange;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.wrap {
+    word-break: break-word;
+    white-space: pre-line;
+    overflow-wrap: break-word;
+    -ms-word-break: break-word;
+    word-break: break-word;
+}
+
+.profile .banner {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    margin-bottom: -60px;
+    z-index: 0;
+  }
+  @media (min-width: 620px) {
+    .profile .banner {
+      border-radius: 12px;
+    }
+  }
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

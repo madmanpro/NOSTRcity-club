@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background: rgb(0, 0, 0);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#content {
+  margin:auto;
+  margin-top:115px ;
+  width:97%;
+  max-width: 520px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Customheader {
+  background: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+  color:mediumpurple;
+  background: rgb(0, 0, 0);
+  box-shadow: 0px 2px 0px mediumpurple;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  height: 90px;
+  width:98%;
+  max-width: 525px;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-top: -113px;
+  display: flex;
+  padding-right: 5px;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header *:first-child {
+  flex: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  margin: 0px;
+}
+
+
+#link {
+  cursor: pointer;
+  color:mediumpurple;
+  margin-left: 20px;
+  
+}
+
+#link:hover {
+  color:rgb(226, 10, 161);
+  text-decoration: underline;
+}
+
+#login-note {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#new-note {
+  width: 100%;
+}
+
+#main-new-note-area {
+  flex: 1;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+textarea {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background: aliceblue;
+  border-radius: 0;
+  border: none;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 8px;
+  resize: none;
+  width: 100%;
+}
+
+#publish-button {
+  text-align: right;
+  margin-left: auto;
+  float: right;
+}
+
+#follow-button {
+  text-align: right;
+  margin-left: auto;
+  float: right;
+}
+
+.relay {
+  background-color: aliceblue;
+  margin: 5px;
+  border-radius: 0px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#new-relay {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+#new-relay > input[type=text] {
+  border:none;
+  border-bottom: 2px solid lightgray;
+  font-size: large;
+  padding: 8px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+#new-relay > input[type=text]:focus {
+  outline: none;
+  border-bottom: 2px solid gray;
+  background-color: aliceblue;
+}
+
+#myBtn {
+  display: yes; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 40px; /* Place the button at the bottom of the page */
+  right: 15px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: mediumpurple; /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}

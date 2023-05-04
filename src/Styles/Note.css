@@ -1,0 +1,30 @@
+#copy-button {
+  color: gray;
+  padding-left: 5px;
+  font-size: small;
+  cursor: pointer;
+  width: 15px;
+}
+
+#message-container{
+  position: relative;
+  box-sizing:border-box;
+  display: flex;
+  width: 100%;
+}
+
+#replying {
+  padding-left: 10px;
+}
+
+#note-pic {
+  margin-right: 10px;
+}
+
+#content-image {
+  max-width: 90%;
+  margin: auto;
+  max-height: 400px; 
+}
+
+  

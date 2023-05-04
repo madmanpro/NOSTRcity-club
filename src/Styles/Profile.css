@@ -1,0 +1,58 @@
+#profile-name {
+    color:rgb(194, 140, 219);
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+}
+
+#profile-container {
+    margin: auto;
+    width:95%;
+    max-width: 525px;
+    background-color: black;
+    background-image: linear-gradient(purple, black);
+    box-shadow: 0px 0px 5px mediumpurple;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: auto;
+    margin-top: 125px;
+
+}
+
+#profile-large-pic {
+    height:100px;
+    width:100px;
+    object-fit: cover;
+    border-radius:50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+#profile-pubkey {
+    color: rgb(253, 214, 130);
+    font-size: small;
+    padding-left: 10px;
+    overflow-wrap: break-word;
+    cursor: pointer;
+}
+
+#profile-about {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.profile-tooltip {
+    border-radius: 10px;
+    opacity: .95;
+    font-size: small;
+    background-color: orange;
+}
+
+
+#profile-copy-button {
+    color: gray;
+    font-size: small;
+    cursor: pointer;
+    width: 15px;
+}

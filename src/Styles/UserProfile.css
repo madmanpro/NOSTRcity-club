@@ -1,0 +1,203 @@
+.gray {
+    color: gray;
+}
+
+#save-button {
+    margin-top: 15px;
+    width: 8rem;
+}
+
+#login-form {
+    margin-top: 20px;
+    width: 85%;
+    display:flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#key-title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.display-key {
+    margin-top: 4px;
+    width: 90%;
+    padding: 4px;
+    border: none;
+    border-bottom: 2px solid gray;
+    font-size: large;
+    background-color: li;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 15px;
+}
+
+#overlay {
+    transition: display 0.4s ease-in-out;/*cubic-bezier(1, 0, 0, 1);*/
+    position: fixed;
+    width: 90%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+} 
+
+#key-container > * {
+    padding-top: 5px;
+}
+
+#key-container {
+    z-index: 15;
+    width: 90%;
+    max-width: 450px;
+    height: fit-content;
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+}
+
+#button-container {
+    margin-top: 45px;
+    display: flex;
+    gap: 15px;
+}
+
+#update-fields {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#view-keys {
+    background-color:rgb(96, 44, 155);
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#logout {
+    background-color: red;
+    margin-bottom: 20px;
+}
+
+#generate-key {
+    font-size: small;
+    border:none;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: fit-content;
+    margin-top: 5px;
+}
+
+#generate-key:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#update-fields > label {
+    margin-top: 10px;
+    font-size: small;
+    padding-left: 10px;
+    padding-bottom: 0px;
+}
+
+#update-fields > input[type=text] {
+    font-size: large;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: none;
+    border-bottom: 2px solid lightgray;
+}
+
+#update-fields > input[type=text]:focus {
+    outline: none;
+    border-bottom: 2px solid gray;
+    background-color: aliceblue;
+}
+
+#login-form > label {
+    margin-top: 30px;
+    font-size: small;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+#login-form > input[type=text] {
+    border: none;
+    border-bottom: 2px solid lightgray;
+    font-size: large;
+    padding: 10px;
+}
+
+#login-form > input[type=text]:focus {
+    background-color: aliceblue;
+    outline: none;
+    border-bottom: 2px solid gray;
+}
+
+#login-form > input[type=submit] {
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    padding: 15px;
+    width: 80px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+
+
+#login-form > input[type=submit]:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#user-meta-container {
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+#user-name {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#user-pic {
+    background-color: white;
+    height:125px;
+    width:125px;
+    object-fit: cover;
+    border-radius:50%;
+    margin-right: 10px;
+}
+
+#user-about {
+    text-align: left;
+}
+
+.white-text {
+    color: white;
+}
+
+.center-text {
+    text-align: center;
+}
