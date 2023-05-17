@@ -190,6 +190,7 @@ const Note = ({note, relays, meta}) => {
                     {getReplyTo()}
                     <p class="wrap">{getContent()}</p>
                     {getContentImage()}
+                    
                 </div>
             </div>
             
