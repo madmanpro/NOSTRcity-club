@@ -83,7 +83,6 @@ const Home = () => {
       }
     };
 
-
   
     const getSorted = () => {
         return notes.sort(function(a, b) {
@@ -111,10 +110,12 @@ const Home = () => {
         </div>
 
   
-        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-sharp fa-regular fa-pen-to-square"></i></button>
+        <button onClick={() => window.scrollTo(0, -100)} id="myBtn" title="Go to top"><i class="fa-sharp fa-regular fa-pen-to-square"></i></button>
 
       </>
     );
+    
+
 }
 
 export default Home;

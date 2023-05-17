@@ -3,6 +3,9 @@ import '../Styles/Note.css';
 import {CgClose} from "react-icons/cg";
 import { BiCopy } from "react-icons/bi";
 import { useNavigate } from "react-router-dom";
+import {React} from "react";
+import { Swipeable } from 'react-swipeable';
+
 
 const Note = ({note, relays, meta}) => {
 
@@ -177,7 +180,7 @@ const Note = ({note, relays, meta}) => {
 
     return (
         <>
-            <div class="card" id="message-container"  onClick={()=> {
+            <div class="card" id="message-container"  onDoubleClick={()=> {
                 navigate('/posts/' + note.id);
                 navigate(0);
             }}>
@@ -186,7 +189,7 @@ const Note = ({note, relays, meta}) => {
                     <p>{getName()}</p>
                     {getReplyTo()}
                     <p class="wrap">{getContent()}</p>
-            {getContentImage()}
+                    {getContentImage()}
                 </div>
             </div>
             
